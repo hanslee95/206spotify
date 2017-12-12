@@ -16,7 +16,7 @@ username = 'hanslee_'
 scope = 'user-library-read'
 
 # API Authorization using my spotify account
-api = util.prompt_for_user_token(username,scope,client_id='c2fb9d8a11ae4eeeab9eb62415f6b09b',client_secret='5a909f1db45148d197dd8a950be3c8b8',redirect_uri='https://www.genrevisual.com')
+api = util.prompt_for_user_token(username,scope,client_id='client_id',client_secret='client_secret',redirect_uri='redirect_uri')
 
 # ############## CACHING THE DATA ###########################################################################################################################################################
 CACHE_FNAME = "Saved_songs_cache.json"
